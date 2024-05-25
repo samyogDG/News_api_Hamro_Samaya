@@ -1,0 +1,136 @@
+.home-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.datetime {
+  font-weight: bold;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.date {
+  margin-right: auto; /* Pushes the time to the right */
+  margin-left: 20px;
+}
+
+.time {
+  margin-left: auto; /* Pushes the date to the left */
+  margin-right: 30px;
+}
+.additional-info {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.line {
+  position: absolute; /* Position the line relative to its parent */
+  bottom: -10px; /* Adjust this value to control the distance of the line from the div */
+  left: 50%; /* Position the line horizontally in the middle */
+  transform: translateX(-50%); /* Center the line horizontally */
+  width: 100%; /* Adjust the width of the line */
+  height: 1px; /* Adjust the thickness of the line */
+  background-color: #e91313; /* Adjust the color of the line */
+}
+
+/* Assuming the Logo component will have its own styles */
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer h3 {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .footer p {
+    color: #ccc;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between links */
+  }
+  
+  .footer ul li:last-child {
+    margin-right: 0; /* Remove margin from last link */
+  }
+  
+  .footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #fff;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons */
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0; /* Remove margin from last icon */
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+
+  .additional-content {
+    text-align: center; /* Align content to the center */
+    margin-top: 20px; /* Add some space on top */
+  }
+  
+  .additional-content p {
+    color: #fff; /* Color for paragraph text */
+    margin-bottom: 10px; /* Bottom margin for paragraphs */
+  }
+  
+  .additional-content a {
+    color:#fff; /* Color for links */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .additional-content a:hover {
+    color:  #ccc; /* Color for links on hover */
+  }
+  
+
+  .newsboard{
+    padding-top: 20px;
+  }
+
+
+
+
+
